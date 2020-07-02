@@ -1,0 +1,14 @@
+package PART_II_OOP.Day36.StaticClassMembers;
+
+public class Dinner {
+
+	static int pizzaSlice=8;
+	
+	public void takeASlice() {
+		pizzaSlice--;
+	}
+	
+	public void takeASlice(int count) {
+		pizzaSlice-=count;
+	}
+}
