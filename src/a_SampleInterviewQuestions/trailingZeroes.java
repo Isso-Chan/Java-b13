@@ -21,9 +21,9 @@ public class trailingZeroes {
 		
 		String str=Long.toString(factorial);
 		for(int i=str.length()-1;i>1;i--) {
-			if(str.subSequence(i, i+1).equals("0")) {
+			if(str.substring(i, i+1).equals("0")) {
 				count++;
-			}else if(!str.subSequence(i, i+1).equals("0")) {
+			}else if(!str.substring(i, i+1).equals("0")) {
 				break;
 			}
 			
