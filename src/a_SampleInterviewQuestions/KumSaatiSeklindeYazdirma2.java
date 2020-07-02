@@ -1,6 +1,6 @@
 package a_SampleInterviewQuestions;
 
-public class aa {
+public class KumSaatiSeklindeYazdirma2 {
 	public static void main(String[] args) {
 		
 
